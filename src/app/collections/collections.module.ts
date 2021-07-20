@@ -7,13 +7,15 @@ import {TableComponent} from './table/table.component';
 import {SharedModule} from "../shared/shared.module";
 import { BiographyComponent } from './biography/biography.component';
 import { CompaniesComponent } from './companies/companies.component';
+import { PartnersComponent } from './partners/partners.component';
 
 @NgModule({
   declarations: [
     CollectionsHomeComponent,
     TableComponent,
     BiographyComponent,
-    CompaniesComponent
+    CompaniesComponent,
+    PartnersComponent
   ],
   exports: [],
   imports: [
