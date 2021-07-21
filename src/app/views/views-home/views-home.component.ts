@@ -12,6 +12,10 @@ export class ViewsHomeComponent implements OnInit {
     {value: 50, label: 'Reviews'}
   ]
 
+  items = [
+    {image: '/assets/images/couch.jpeg', title: 'couch', description: 'Thi is a fantastic couch to sit on'},
+    {image: '/assets/images/dresser.jpeg', title: 'dresser', description: "This is a great dresser"}
+  ]
   constructor() {
   }
 
